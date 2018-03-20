@@ -8,6 +8,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using ngocnhan.tk.Models;
 using Microsoft.EntityFrameworkCore;
+//edit ngocnhanvo2
 namespace ngocnhan.tk
 {
     public class Startup
