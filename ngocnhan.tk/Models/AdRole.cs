@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+//aaaa
 namespace ngocnhan.tk.Models
 {
     public partial class AdRole
