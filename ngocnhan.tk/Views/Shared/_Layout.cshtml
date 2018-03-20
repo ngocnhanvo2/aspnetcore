@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>@ViewData["Title"]</title>
+
+    <environment include="Development">
+         <link rel="stylesheet" href="~/ajax/bootstrap/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+		<link rel="stylesheet" href="~/css/escmvc.css" />
+
+		<!-- Uncomment below to load individualy vendor CSS -->
+		<link href="~/lib/vendor/css/foundation.min.css" rel="stylesheet">
+		<link href="~/lib/vendor/css/swiper.min.css" rel="stylesheet">
+		<link href="~/lib/vendor/css/jquery.fullpage.min.css" rel="stylesheet">
+		<link href="~/lib/vendor/css/vegas.min.css" rel="stylesheet">
+		<!-- Main CSS files -->
+		<link href="~/lib/vendor/css/main.css" rel="stylesheet">
+		<link href="~/lib/vendor/css/style-color1.css" rel="stylesheet">
+		<!-- STYLESHEETS -->
+		<link href="~/lib/font_ionicons/ionicons.min.css" rel="stylesheet">
+		<link href="~/lib/font_awesome/font-awesome.min.css" rel="stylesheet">
+		<script src="~/lib/jquery/dist/jquery.js"></script>
+    </environment>
+	<!-- FAVICON -->
+	<link href="~/favicon.ico" rel="shortcut icon">
+
+</head>
+<body class="fp-viewing-home" style="height: 100%;">
+	<div class="hh-body alt-bg left-light" id="menu">
+	   <!-- BEGIN OF site header Menu -->
+	   <header class="hh-header header-top">
+		  <!-- Begin of logo -->
+		  <div class="logo-wrapper">
+			 <a href="./">
+				<h2 class="logo">
+				   <span class="logo-img">
+				   <img alt="Logo" class="light-logo" src="https://3.bp.blogspot.com/-7WB9h4wW_P4/WOTgv6XkMsI/AAAAAAAAAI8/O1jptZ7HX24WszeHgoRLUiTVKwhG0fJVwCLcB/s1600/15400349_1756829767975444_7652480590867339544_n.jpg">
+				   </span>
+				   <span class="logo-text">
+				   <span class="title">Giới Thiệu</span>
+				   <span class="desc">Họ tên: @ViewData["HoTen"]<i class="fa fa-check-circle" style="color:rgb(17,143,249);font-size:14px;" title="Đã Xác Minh"></i>
+				   </span>
+				   </span>
+				</h2>
+			 </a>
+		  </div>
+		  <!-- End of logo -->
+		  <!-- Begin of menu icon -->
+		  <a class="menu-icon">
+			 <div class="bars">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div>
+			 </div>
+		  </a>
+		  <!-- End of menu icon -->
+		  <!-- Begin of menu -->
+		  <nav class="menu-links">
+			 <ul class="links">
+				<li><a asp-area="" asp-controller="Home" asp-action="Index">Trang Chủ</a></li>
+				<li><a asp-area="" asp-controller="Home" asp-action="About">Giới Thiệu</a></li>
+				<li><a asp-area="" asp-controller="Home" asp-action="Contact">Liên Hệ</a></li>
+			 </ul>
+		  </nav>
+		  <!-- End of menu -->
+	   </header>
+	   <!-- END OF site header Menu-->
+	   <!-- BEGIN OF page cover -->
+	   <div class="hh-cover page-cover">
+		  <!-- Cover Background -->
+		  <div class="cover-bg pos-abs full-size bg-img  bg-blur-0" data-image-src="https://static.pexels.com/photos/140945/pexels-photo-140945.jpeg" style="background-image: url(&quot;https://static.pexels.com/photos/140945/pexels-photo-140945.jpeg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div>
+		  <!-- Solid color as background - uncomment below to use solid color background -->
+		  <!--<div class="cover-bg pos-abs full-size bg-color" data-bgcolor="#00B4C2"></div>-->
+		  <!-- Transluscent mask as filter -->
+		  <div class="cover-bg-mask pos-abs full-size bg-color" data-bgcolor="rgba(32, 32, 32, 0.7)" style="background-color: rgba(32, 32, 32, 0.7);"></div>
+	   </div>
+	   <!--END OF page cover -->
+	   <!-- BEGIN OF page main content -->
+	   <main class="page-main fullpg fullpage-wrapper" id="mainpage" style="height: 100%; position: relative; touch-action: none; transition: all 700ms ease;">
+			@RenderBody()
+	   </main>
+	   <!-- BEGIN OF page footer -->
+	   <footer class="site-footer" id="site-footer">
+		  <!-- social networks -->
+		  <div class="contact">
+			 <ul class="socials">
+				<li><a class="circ-btn" href="http://facebook.com/RimNi.Info"><i class="fa fa-facebook"></i></a></li>
+				<li><a class="circ-btn" href="http://twitter.com/#"><i class="icon ion-social-twitter"></i></a></li>
+			 </ul>
+		  </div>
+		  <!-- Notes -->
+		  <div class="note">
+			 <p>Edit By Võ Ngọc Nhân  </p>
+			 <p> Copyright <a href="#"><span class="marked">VNN</span></a> 2018</p>
+		  </div>
+		  <!-- Arrows Scroll down arrow -->
+		  <!-- Move it next to fp nav using javascript -->
+		  <!-- End of Scroll down arrow -->
+	   </footer>
+	   <!-- END OF site footer -->
+	</div>
+    <environment include="Development">
+        <script src="~/ajax/jquery/jquery-2.2.0.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery"
+                crossorigin="anonymous"
+                >
+        </script>
+        <script src="~/ajax/bootstrap/js/bootstrap.min.js"
+                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                crossorigin="anonymous"
+                >
+        </script>
+        <script src="~/js/site.min.js" asp-append-version="true"></script>
+    </environment>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

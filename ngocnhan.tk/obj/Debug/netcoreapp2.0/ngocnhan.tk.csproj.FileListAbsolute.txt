@@ -1,0 +1,11 @@
+D:\asp.net\Core\ngocnhan.tk\ngocnhan.tk\bin\Debug\netcoreapp2.0\ngocnhan.tk.deps.json
+D:\asp.net\Core\ngocnhan.tk\ngocnhan.tk\bin\Debug\netcoreapp2.0\ngocnhan.tk.runtimeconfig.json
+D:\asp.net\Core\ngocnhan.tk\ngocnhan.tk\bin\Debug\netcoreapp2.0\ngocnhan.tk.runtimeconfig.dev.json
+D:\asp.net\Core\ngocnhan.tk\ngocnhan.tk\bin\Debug\netcoreapp2.0\ngocnhan.tk.dll
+D:\asp.net\Core\ngocnhan.tk\ngocnhan.tk\obj\Debug\netcoreapp2.0\ngocnhan.tk.csprojResolveAssemblyReference.cache
+D:\asp.net\Core\ngocnhan.tk\ngocnhan.tk\obj\Debug\netcoreapp2.0\ngocnhan.tk.csproj.CoreCompileInputs.cache
+D:\asp.net\Core\ngocnhan.tk\ngocnhan.tk\obj\Debug\netcoreapp2.0\ngocnhan.tk.AssemblyInfoInputs.cache
+D:\asp.net\Core\ngocnhan.tk\ngocnhan.tk\obj\Debug\netcoreapp2.0\ngocnhan.tk.AssemblyInfo.cs
+D:\asp.net\Core\ngocnhan.tk\ngocnhan.tk\bin\Debug\netcoreapp2.0\ngocnhan.tk.pdb
+D:\asp.net\Core\ngocnhan.tk\ngocnhan.tk\obj\Debug\netcoreapp2.0\ngocnhan.tk.dll
+D:\asp.net\Core\ngocnhan.tk\ngocnhan.tk\obj\Debug\netcoreapp2.0\ngocnhan.tk.pdb

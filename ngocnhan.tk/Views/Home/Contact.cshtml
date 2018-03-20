@@ -1,0 +1,113 @@
+﻿@{
+    ViewData["Title"] = "Contact";
+}
+
+<div class="section section-contact fp-auto-height-responsive fp-section anim fp-completely" data-section="contact" data-anchor="contact">
+   <div class="fp-scrollable">
+      <div class="fp-scroller" style="transition-timing-function: cubic-bezier(0.1, 0.57, 0.1, 1); transition-duration: 0ms; transform: translate(0px, 0px) translateZ(0px);">
+         <section class="content clearfix">
+            <!-- Begin of left elements -->
+            <div class="c-left anim">
+               <div class="wrapper contact-wrapper">
+                  <!-- title -->
+                  <header class="title-desc">
+                     <span class="anim-wrapper">
+                        <h2 class="page-title">Contact Us</h2>
+                     </span>
+                     <span class="anim-wrapper">
+                        <p>Need help or just want to say hello?</p>
+                     </span>
+                  </header>
+                  <!-- Begin of contact list -->
+                  <ul class="contact-list c-features row small-up-1 medium-up-1 large-up-2">
+                     <!-- item -->
+                     <li class="column anim">
+                        <div class="item-desc">
+                           <span class="anim-wrapper">
+                              <h3 class="title">Địa Chỉ</h3>
+                           </span>
+                           <div class="desc">
+                              <span class="anim-wrapper">
+                                 <p>Mỹ An
+                                    <br>An Thượng 21
+                                    <br>Đà Nẵng, Việt Nam
+                                 </p>
+                              </span>
+                           </div>
+                        </div>
+                     </li>
+                     <!-- item -->
+                     <li class="column anim">
+                        <div class="item-desc">
+                           <span class="anim-wrapper">
+                              <h3 class="title">Contact</h3>
+                           </span>
+                           <div class="desc">
+                              <span class="anim-wrapper">
+                                 <p>
+                                    Call : +84 1202.548.926
+                                    <br> Email : <a href="">offcialroset@gmail.com</a>
+                                 </p>
+                              </span>
+                           </div>
+                        </div>
+                     </li>
+                  </ul>
+                  <!-- End of contact list -->
+               </div>
+            </div>
+            <!-- End of left elements -->
+            <!-- Begin of right elements -->
+            <div class="c-right">
+               <div class="wrapper c-form">
+                  <!-- begin of contact form content -->
+                  <div class="c-content card-wrapper">
+                     <form action="#" class="message form send_message_form" id="message_form" method="post">
+                        <div class="form-header clearfix">
+                           <h3>
+                              Lời Nhắn
+                           </h3>
+                           <div class="btns ">
+                              <button class="btn arrow-circ-btn email_b" id="submit-message" name="submit_message">
+                              <span class="txt">Send</span>
+                              <span class="arrow-icon"></span>
+                              </button>
+                           </div>
+                        </div>
+                        <div class="fields clearfix">
+                           <div class="input name">
+                              <label for="mes-name">Name :</label>
+                              <input class="form-success-clean" id="mes-name" name="name" placeholder="" type="text">
+                           </div>
+                        </div>
+                        <div class="fields clearfix">
+                           <div class="input bottom">
+                              <label for="mes-email">Email :</label>
+                              <input class="form-success-clean" id="mes-email" name="email" placeholder="" type="email">
+                           </div>
+                        </div>
+                        <div class="fields clearfix no-border">
+                           <label for="mes-text">Message</label>
+                           <textarea class="form-success-clean" id="mes-text" name="message" placeholder="..."></textarea>
+                           <div>
+                              <p class="message-ok invisible form-text-feedback form-success-visible">Your message has been sent, thank you.</p>
+                           </div>
+                        </div>
+                     </form>
+                  </div>
+                  <!-- end of contact form content -->
+               </div>
+            </div>
+            <!-- End of right elements -->
+         </section>
+      </div>
+   </div>
+</div>
+
+<script>
+	$(document).ready(function () {
+		setTimeout(function() {
+			$('#mainpage .section-contact').addClass('active');
+		}, 0);
+	});
+</script>
